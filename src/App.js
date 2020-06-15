@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" component={StreamList} />
         <Route exact path="/streams/new" component={StreamCreate} />
         <Route exact path="/streams/edit/:id" component={StreamEdit} />
-        <Route exact path="/streams/show" component={StreamShow} />
+        <Route exact path="/streams/:id" component={StreamShow} />
         <Route exact path="/streams/delete/:id" component={StreamDelete} />
       </Switch>
     </div>
